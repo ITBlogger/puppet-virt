@@ -405,7 +405,7 @@ The content of this element specifies the action to take when the guest crashes.
 
 * `destroy`: The domain will be terminated completely and all resources released.
 * `restart`: The domain will be terminated, and then restarted with the same configuration.
-* `preserve`: The domain will be terminated, and its resource preserved to allow analysis.
+* `preserv`: The domain will be terminated, and its resource preserved to allow analysis.
 * `rename-restart`: The domain will be terminated, and then restarted with a new name."
 Requires features `manages_behaviour`.
 
